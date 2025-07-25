@@ -1,0 +1,296 @@
+.items {
+   font-family: "8-bit Operator Mono";
+   color: white;
+   font-size: 32px;
+   padding: 5px;
+   border-radius: 25px;
+   margin-top: 10px;
+}
+
+/* Unique background and border colors for each */
+.bryce {
+   background-color: #FF6F61;  /* Coral Red */
+   border: 2px solid #FF6F61;
+}
+
+.abiola {
+   background-color: #6B5B95;  /* Deep Purple */
+   border: 2px solid #6B5B95;
+}
+
+.ryan {
+   background-color: #88B04B;  /* Olive Green */
+   border: 2px solid #88B04B;
+}
+
+.angel {
+   background-color: #FFA07A;  /* Light Salmon */
+   border: 2px solid #FFA07A;
+}
+
+/* Hover effect stays the same */
+.items:hover {
+   color: grey;
+}
+
+.navbar1{
+   background-color: #957DAD;
+   padding: 5px;
+    border: #957DAD solid line;
+    border-radius: 25px;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.items:hover {
+    color:grey;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #282828;
+  padding: 15px 30px;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  gap: 10px;
+}
+
+a {
+   width: 20%;
+   text-align: center;
+   text-decoration: none;
+}
+
+#profile-banner {
+  background-image: url('images/All-Star-Code-Logo2.webp');
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  margin-top: 0;
+}
+
+.banner-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: flex-end;
+  padding: 20px 30px;
+}
+
+#ASCSUM{
+    border: solid red ;
+    font-family:"8-bit Operator Mono";
+   background-color: black;
+   color: white;
+   font-size: 16px;
+   padding: 5px;
+   text-align: center;
+   margin: 50px;
+}
+
+#person1{
+    margin-top: 200px;
+    border: #282828 solid;
+    border-radius: 5px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: darkblue;
+    .person1img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 3px solid black;
+        object-fit: cover;
+    }
+
+    .Summary-Image {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #person1 {    
+        font-family: "8-bit Operator Mono";
+        font-size: 28px;
+        text-decoration: underline;
+    }
+    .pargarph1{
+        font-family: "8-bit Operator Mono";
+        font-size: 28px;
+        text-decoration: underline;
+    }
+}
+
+#person2{
+   margin-top: 150px;
+    border: #282828 solid;
+    border-radius: 5px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: lightblue;
+    .person2img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 3px solid black;
+        object-fit: cover;
+    }
+
+    .Summary-Image {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #person2 {    
+        font-family: "8-bit Operator Mono";
+        font-size: 28px;
+        text-decoration: underline;
+    }
+    .pargarph2{
+        font-family: "8-bit Operator Mono";
+        font-size: 28px;
+        text-decoration: underline;
+    }
+}
+
+#person3{
+   margin-top: 150px;
+    border: #282828 solid;
+    border-radius: 5px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    .person3img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 3px solid black;
+        object-fit: cover;
+    }
+
+    .Summary-Image {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #person3 {    
+        font-family: "8-bit Operator Mono";
+        font-size: 28px;
+        text-decoration: underline;
+    }
+    .pargarph2{
+        font-family: "8-bit Operator Mono";
+        font-size: 28px;
+        text-decoration: underline;
+    }
+}
+
+#person4{
+   margin-top: 150px;
+    border: #282828 solid;
+    border-radius: 5px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 150px;
+    background-color: #957DAD;
+    .person4img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 3px solid black;
+        object-fit: cover;
+    }
+
+    .Summary-Image {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #person2 {    
+        font-family: "8-bit Operator Mono";
+        font-size: 28px;
+        text-decoration: underline;
+    }
+    .pargarph2{
+        font-family: "8-bit Operator Mono";
+        font-size: 28px;
+        text-decoration: underline;
+    }
+}
+
+body.dark-theme {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+body.light-theme {
+    background-color: white;
+    color: black;
+}
+
+/* Example of overriding other elements */
+.light-theme .items {
+    color: black;
+    background-color: #e0e0e0;
+    border: 2px solid #ccc;
+}
+
+.dark-theme .items {
+    color: white;
+    background-color: #333;
+    border: 2px solid #555;
+}
+
+.dark-theme .items {
+    outline: 2px solid #FF6F61; /* Coral Red for .items */
+}
+
+.dark-theme .bryce {
+    outline: 2px solid #FF6F61;
+}
+
+.dark-theme .abiola {
+    outline: 2px solid #6B5B95;
+}
+
+.dark-theme .ryan {
+    outline: 2px solid #88B04B;
+}
+
+.dark-theme .angel {
+    outline: 2px solid #FFA07A;
+}
+
+.dark-theme #person1 {
+    outline: 2px dashed #1E90FF; /* Dodger Blue */
+}
+
+.dark-theme #person2 {
+    outline: 2px dashed #00CED1; /* Dark Turquoise */
+}
+
+.dark-theme #person3 {
+    outline: 2px dashed #FFD700; /* Gold */
+}
+
+.dark-theme #person4 {
+    outline: 2px dashed #FF69B4; /* Hot Pink */
+}
+
+html {
+  scroll-behavior: smooth;
+}
